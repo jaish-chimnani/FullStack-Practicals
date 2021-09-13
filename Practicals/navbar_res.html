@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8e517d223f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+        .header{
+
+        }
+        .menu{
+            /* border: 2px solid red; */
+            background-color: rgb(29, 29, 28);
+            height: 62px;
+        }
+        .menu ul {
+            float: right;
+            /* border: 2px solid black; */
+            display: block;
+            /* margin: aut ; */
+            
+        }
+        .menu ul li {
+            /* border: 2px solid red; */
+            display: inline-block;
+            padding: 22px 45px 22px 45px; 
+            list-style: none;
+        }
+        .menu ul li a{
+            
+            text-decoration: none;
+            color: rgb(250, 248, 248);
+        }
+        .menu ul li:hover{
+          background-color: rgb(80, 79, 79);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+      <ul>
+        <li class="active"><a href="#"><i class="fa fa-home
+          "></i>
+          HOME</a></li>
+        <li><a href="#about"><i class="fas fa-chalkboard-teacher"></i> ABOUT US</a></li>
+        <li><a href="#team"><i class="fas fa-users"></i> TEAM</a></li>
+        <li><a href="#tc"><i class="fab fa-angellist"></i> TECHNOLOGIES</a></li>
+        <li><a href="#contact"><i class="fas fa-phone"></i> CONTACT</a></li>
+        <label for="chk" class="show-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+</body>
+</html>
